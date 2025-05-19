@@ -28,12 +28,19 @@ def predict():
 
     # Create a DataFrame for the input data
     input_df = pd.DataFrame([input_data], columns=['Pregnancies','Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI', 'DiabetesPedigreeFunction', 'Age'])
+    
+    with open('model/scaler.pkl', 'rb') as scaler_file:
+        scaler = pickle.load(scaler_file)
+    
+    input_df = scaler.transform(input_df)
 
     # Make prediction
     prediction = model.predict(input_df)
 
+    result = 'Diabetes' if prediction[0] == 1 else 'No Diabetes'
+
     # Return the prediction result
-    return render_template('index.html', prediction=prediction[0])
+    return render_template('index.html', prediction=result)
 
 if __name__ == '__main__':
     app.run(debug=True)
