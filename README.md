@@ -21,7 +21,7 @@ Traditional methods for diabetes prediction rely on statistical analysis and cli
 
 ## Proposed method with Architecture
 Our approach utilizes supervised machine learning algorithms to predict diabetes. The architecture involves data preprocessing, feature selection, model training, and evaluation.
-[Insert a diagram of your system architecture here if available]
+[Diabetes ML model architecture] https://github.com/Chaitanya-putcha/Diabetes-prediction-ML-model/blob/main/Architecture%20of%20the%20model
 
 ## Methodology
 Data Collection: Data was sourced from PIMA Indian Diabetes Dataset.
