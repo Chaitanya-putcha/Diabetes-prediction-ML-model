@@ -13,6 +13,9 @@ Methodology
 Implementation
 Conclusion
 
+## Demo video
+https://github.com/user-attachments/assets/2b30e9fb-9bb3-4293-9c82-01160a2d0246
+
 ## Introduction
 Diabetes is a chronic disease that affects millions worldwide. Early detection is crucial for effective management. With the rise of data-driven approaches, machine learning models can play a significant role in predicting diabetes risk using patient data.
 
