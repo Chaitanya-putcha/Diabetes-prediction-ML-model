@@ -1,5 +1,5 @@
 # Diabetes Prediction ML Model
-
+[Presentation.pdf](https://github.com/user-attachments/files/20360809/Presentation.pdf)
 ## ABSTRACT
 This project implements a machine learning model to predict diabetes based on various health parameters. The aim is to assist healthcare professionals and patients in early diagnosis and intervention, improving patient outcomes and optimizing resource allocation.
 
